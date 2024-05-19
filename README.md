@@ -71,3 +71,110 @@ Click next on the bottom of the window
 
 <img width="510" alt="Screenshot 2024-05-19 at 2 12 53 PM" src="https://github.com/Jtalbert15/Setting-up-Active-Directory-on-our-Windows-Server-2019/assets/66844406/0989bc75-c42c-49fc-8c8e-426a364a4508">
 
+Since Active Directory is a role based feature we will click next
+
+<img width="512" alt="Screenshot 2024-05-19 at 2 15 29 PM" src="https://github.com/Jtalbert15/Setting-up-Active-Directory-on-our-Windows-Server-2019/assets/66844406/43ff8ecd-c1c2-4344-9bd4-604b00835b8e">
+
+When prompted with the screen above you will see we have an option selected. Within that option we have 3 fields. The name is the name of the computer (which we are currently using). The IP address of this computer is also shown (you may want to keep that written down somewhere for when we want to connect computers to our domain). Finally we see the Operating system this computer is running on.
+
+These options are what we want so you can click the next button
+
+<img width="508" alt="Screenshot 2024-05-19 at 2 21 10 PM" src="https://github.com/Jtalbert15/Setting-up-Active-Directory-on-our-Windows-Server-2019/assets/66844406/8a1a6699-c0d0-41b3-8e4e-e949017cb90d">
+
+We are going to select the Active Directory Domain Services checkmark.
+
+<img width="510" alt="Screenshot 2024-05-19 at 2 23 20 PM" src="https://github.com/Jtalbert15/Setting-up-Active-Directory-on-our-Windows-Server-2019/assets/66844406/770f7a84-0a60-43eb-87f4-7e4783553ac7">
+
+Once you see this screen you will click the add features button
+
+<img width="505" alt="Screenshot 2024-05-19 at 2 24 16 PM" src="https://github.com/Jtalbert15/Setting-up-Active-Directory-on-our-Windows-Server-2019/assets/66844406/ae49ebfb-0a89-49e5-b995-258401eeb7cf">
+
+Once you see the screen above you may click next
+
+<img width="503" alt="Screenshot 2024-05-19 at 2 25 10 PM" src="https://github.com/Jtalbert15/Setting-up-Active-Directory-on-our-Windows-Server-2019/assets/66844406/7ca67886-4202-456d-9885-0a75e11a7777">
+
+Click next again 
+
+<img width="508" alt="Screenshot 2024-05-19 at 2 25 45 PM" src="https://github.com/Jtalbert15/Setting-up-Active-Directory-on-our-Windows-Server-2019/assets/66844406/d703b8db-8022-41ef-813c-7e930e8e7cba">
+
+Click next one more time
+
+<img width="508" alt="Screenshot 2024-05-19 at 2 26 44 PM" src="https://github.com/Jtalbert15/Setting-up-Active-Directory-on-our-Windows-Server-2019/assets/66844406/b4a0d999-f434-4175-8d2d-5b83b8b1cb1d">
+
+Finally you will click Install (This may take a couple minutes)
+
+<img width="507" alt="Screenshot 2024-05-19 at 2 27 30 PM" src="https://github.com/Jtalbert15/Setting-up-Active-Directory-on-our-Windows-Server-2019/assets/66844406/c9380f17-25a2-4e97-b087-da9616a217df">
+
+<img width="510" alt="Screenshot 2024-05-19 at 2 29 23 PM" src="https://github.com/Jtalbert15/Setting-up-Active-Directory-on-our-Windows-Server-2019/assets/66844406/fbffd194-469f-41d2-b388-357c83f76973">
+
+Once completed you will see this message you may click close
+
+<img width="505" alt="Screenshot 2024-05-19 at 2 30 30 PM" src="https://github.com/Jtalbert15/Setting-up-Active-Directory-on-our-Windows-Server-2019/assets/66844406/5f321968-962f-4b9b-bd2a-46efbd2fcf08">
+
+Click on the flag pole with the warning sign
+
+<img width="504" alt="Screenshot 2024-05-19 at 2 33 25 PM" src="https://github.com/Jtalbert15/Setting-up-Active-Directory-on-our-Windows-Server-2019/assets/66844406/ba61c258-0a5a-4b0c-b290-dffef771b843">
+
+Click on promote this server to domain controller
+
+Now we get to set up our Domain! Since we do not have a forest we will create one
+
+<img width="509" alt="Screenshot 2024-05-19 at 2 35 36 PM" src="https://github.com/Jtalbert15/Setting-up-Active-Directory-on-our-Windows-Server-2019/assets/66844406/adba5cac-dd5f-4db5-a26a-e1fdac401e4e">
+
+You can name your domain whatever you'd like just make sure it ends in .org, .net, etc
+
+<img width="368" alt="Screenshot 2024-05-19 at 2 39 37 PM" src="https://github.com/Jtalbert15/Setting-up-Active-Directory-on-our-Windows-Server-2019/assets/66844406/50ee71cf-76fc-4c02-90ff-040dac9437ca">
+
+We will then click next
+
+<img width="505" alt="Screenshot 2024-05-19 at 2 41 33 PM" src="https://github.com/Jtalbert15/Setting-up-Active-Directory-on-our-Windows-Server-2019/assets/66844406/fdfdb24d-59c3-49c6-a1dc-6767f9202292">
+
+You may then create your DSRM password and click next
+
+<img width="507" alt="Screenshot 2024-05-19 at 2 43 48 PM" src="https://github.com/Jtalbert15/Setting-up-Active-Directory-on-our-Windows-Server-2019/assets/66844406/7b7ac109-d3cc-4590-9051-e15150e27141">
+
+We don't need to change DNS options so click next
+
+<img width="509" alt="Screenshot 2024-05-19 at 2 45 01 PM" src="https://github.com/Jtalbert15/Setting-up-Active-Directory-on-our-Windows-Server-2019/assets/66844406/e5e56131-473f-4c3b-b9c4-3ab2b7ab6c34">
+
+Click next again
+
+<img width="509" alt="Screenshot 2024-05-19 at 2 45 48 PM" src="https://github.com/Jtalbert15/Setting-up-Active-Directory-on-our-Windows-Server-2019/assets/66844406/17a80831-a393-4f0a-8f11-dfbe5cfdffad">
+
+Click next again
+
+<img width="509" alt="Screenshot 2024-05-19 at 2 46 37 PM" src="https://github.com/Jtalbert15/Setting-up-Active-Directory-on-our-Windows-Server-2019/assets/66844406/b150f061-37fa-4030-8a66-88317d60204a">
+
+click next again
+
+<img width="506" alt="Screenshot 2024-05-19 at 2 47 30 PM" src="https://github.com/Jtalbert15/Setting-up-Active-Directory-on-our-Windows-Server-2019/assets/66844406/dc11740f-c9ff-4271-9c8d-3af70c18463c">
+
+Finally click install. This may take awhile
+
+<img width="497" alt="Screenshot 2024-05-19 at 2 52 29 PM" src="https://github.com/Jtalbert15/Setting-up-Active-Directory-on-our-Windows-Server-2019/assets/66844406/39a03752-4f8c-4f0f-8853-1ba733426b6d">
+
+Once completed your computer will restart. This will also take a bit of time.
+
+<img width="505" alt="Screenshot 2024-05-19 at 3 41 57 PM" src="https://github.com/Jtalbert15/Setting-up-Active-Directory-on-our-Windows-Server-2019/assets/66844406/0f65b2e3-b74a-47ca-8377-d4febea1563f">
+
+Now we will sign in with our admin account we created for our domain 
+
+<img width="507" alt="Screenshot 2024-05-19 at 3 43 06 PM" src="https://github.com/Jtalbert15/Setting-up-Active-Directory-on-our-Windows-Server-2019/assets/66844406/309e1c91-b794-4a93-98f0-77bbe1299937">
+
+After signing in our server Manager will load
+
+<img width="510" alt="Screenshot 2024-05-19 at 3 44 42 PM" src="https://github.com/Jtalbert15/Setting-up-Active-Directory-on-our-Windows-Server-2019/assets/66844406/0e2e70e3-56b7-4edb-a400-fdd658714c07">
+
+Click tools in the top right
+
+<img width="508" alt="Screenshot 2024-05-19 at 3 45 26 PM" src="https://github.com/Jtalbert15/Setting-up-Active-Directory-on-our-Windows-Server-2019/assets/66844406/21ac6787-e316-4669-a346-c5206a3238c0">
+
+Then select Active Directory Users and Computers
+
+<img width="509" alt="Screenshot 2024-05-19 at 3 47 15 PM" src="https://github.com/Jtalbert15/Setting-up-Active-Directory-on-our-Windows-Server-2019/assets/66844406/7f1d8f76-10cb-4db3-a7a5-ef3908dca997">
+
+Now we can see the Domain we created!
+
+<img width="507" alt="Screenshot 2024-05-19 at 3 48 01 PM" src="https://github.com/Jtalbert15/Setting-up-Active-Directory-on-our-Windows-Server-2019/assets/66844406/c6a819c7-6d5f-41df-97b5-e970073639f2">
+
+Congratulations! That concludes the setup for Active Directory! 
