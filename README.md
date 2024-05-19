@@ -11,6 +11,7 @@ That should open our window where we can use our VM as shown below
 <img width="504" alt="Screenshot 2024-05-19 at 1 25 31 PM" src="https://github.com/Jtalbert15/Setting-up-Active-Directory-on-our-Windows-Server-2019/assets/66844406/c57aff0c-7311-490f-82ea-7117966ad7dc">
 
 Once at this screen you can fill out the options that best suit you
+
 <img width="505" alt="Screenshot 2024-05-19 at 1 27 03 PM" src="https://github.com/Jtalbert15/Setting-up-Active-Directory-on-our-Windows-Server-2019/assets/66844406/77544fb8-975e-4606-8235-8990998ce72e">
 
 Once configured click next
@@ -33,6 +34,7 @@ Accept the Licensing Agreement
 Click Next
 
 Click Custom: Install Windows only (advanced)
+
 <img width="507" alt="Screenshot 2024-05-19 at 1 37 15 PM" src="https://github.com/Jtalbert15/Setting-up-Active-Directory-on-our-Windows-Server-2019/assets/66844406/e33d06ff-c0a1-4365-b2dc-674e1cc44f66">
 
 Now you can see the 50 GB we alloted in the setup of our VM
