@@ -1,8 +1,25 @@
 # Setting-up-Active-Directory-on-our-Windows-Server-2019
+<h1>Summary</h1>
 
-Now that we have set up our VM we can now begin setting up our server so we may use Active Directory 
+<img width="350" alt="Screenshot 2024-06-15 at 12 26 48 PM" src="https://github.com/Jtalbert15/Setting-up-Active-Directory-on-our-Windows-Server-2019/assets/66844406/623fa216-e56d-43b7-b6ae-5efd468d5f16">
 
-Step 1) To start up our VM we can double click on the VM.
+In this lab we are going to log into our Windows 2019 VM and create a local administrator. From there we will go through the steps to install Active Directory.
+
+<h1>What is Active Directory?</h1>
+
+Active Directory allows us to create rules within a network. We can create users and authenticate them via a password. We can create group policy objects and apply them to different users. We also can also group users into organizational units so we may easily assign rules to multiple users
+
+
+
+<h1>Step 1) Creating a Local Admin Account</h1>
+
+<h2>Summary</h2>
+
+In this step we will create a local administrator account. This account will not be associated with our setup of active directory but it will allow us to get into the computer if something goes wrong with our server.
+
+<h2>1A) Booting up our Windows 2019 Server VM for the first time</h2>
+
+Double click on the Server VM we have created
 
 <img width="278" alt="Screenshot 2024-05-19 at 1 24 07 PM" src="https://github.com/Jtalbert15/Setting-up-Active-Directory-on-our-Windows-Server-2019/assets/66844406/edf6a435-0ef3-4560-b278-051a1c207d96">
 
@@ -46,6 +63,7 @@ We don't want to change anything so you can click next
 Now the VM will install our Windows Server 2019! It may take awhile so hang tight.
 
 <img width="507" alt="Screenshot 2024-05-19 at 1 44 51 PM" src="https://github.com/Jtalbert15/Setting-up-Active-Directory-on-our-Windows-Server-2019/assets/66844406/cf67f34e-d74d-4a07-bf58-2995b9e1c756">
+<h2>1B) Creating the Local Admin Account </h2>
 
 Once its finished you will see this screen. We will create an administrator account so we can set up Active Directory 
 
@@ -58,6 +76,13 @@ Now we are going to sign in with the administrator account that we just created
 <img width="506" alt="Screenshot 2024-05-19 at 2 04 45 PM" src="https://github.com/Jtalbert15/Setting-up-Active-Directory-on-our-Windows-Server-2019/assets/66844406/45e56e3e-c296-47a3-836f-57598b34823c">
 
 Once you have successfully logged in you will see this screen
+
+<h1>Step 2) Installing Active Directory</h1>
+
+<h2>Summary</h2>
+
+Now that we have created a local administrator account and logged in we can now create our Active Directory Domain.
+
 
 <img width="509" alt="Screenshot 2024-05-19 at 2 07 07 PM" src="https://github.com/Jtalbert15/Setting-up-Active-Directory-on-our-Windows-Server-2019/assets/66844406/154dcdea-9e8a-4e44-b8f9-5a3fe4579425">
 
